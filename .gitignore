@@ -2,4 +2,6 @@
 venv/
 
 #IDE
-**.idea/**
+.idea/
+*.iml
+*.iwsadd
