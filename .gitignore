@@ -1,2 +1,5 @@
 #Environments
 venv/
+
+#IDE
+.idea/
