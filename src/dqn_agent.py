@@ -100,7 +100,7 @@ class Agent():
         # Get expected Q values from local model
         Q_expected = self.qnetwork_local(states).gather(1, actions)
 
-        loss = F.mse_loss(Q_expected, Q_targets)
+        loss = F.mse_loss(Q_expected.double(), Q_targets.double())
 
         # Minimize the loss
         self.optimizer.zero_grad()
