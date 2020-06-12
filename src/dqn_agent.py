@@ -1,5 +1,5 @@
-from src.replaybuffer import ReplayBuffer
-from src.model import QNet
+from replaybuffer import ReplayBuffer
+from model import QNet
 
 import torch
 import torch.optim as optim
@@ -95,7 +95,7 @@ class Agent():
         Q_targets_next = self.qnetwork_target(next_states).detach().max(1)[0].unsqueeze(1)
 
         # Compute Q targets for current states
-        Q_targets = rewards + (gamma * Q_targets_next *(1 -dones))
+        Q_targets = rewards + (gamma * Q_targets_next * (~dones))
 
         # Get expected Q values from local model
         Q_expected = self.qnetwork_local(states).gather(1, actions)
