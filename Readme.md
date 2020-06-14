@@ -16,4 +16,4 @@
       propagated back to the local q-network
     * soft update to update the target network with values from the local q-network
 ##Replay Buffer
-Contains a history of interactions of the agen in the environment.
+Contains a history of interactions of the agent in the environment.
