@@ -7,7 +7,6 @@
 
 ##Model
 ![Alt text](images/nn.svg)
-<img src="images/nn.svg">
 
 ##Agent
 1. The agent has the following methods:
