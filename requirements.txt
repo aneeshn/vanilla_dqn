@@ -104,7 +104,7 @@ tf2-kdl==0.6.5
 tf2-py==0.6.5
 tf2-ros==0.6.5
 topic-tools==1.14.5
-torch==1.5.0
+torch==2.2.0
 urdfdom-py==0.4.3
 virtualenv==20.0.21
 xacro==1.13.5
