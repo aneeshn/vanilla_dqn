@@ -108,4 +108,4 @@ torch==2.2.0
 urdfdom-py==0.4.3
 virtualenv==20.0.21
 xacro==1.13.5
-zipp==3.1.0
+zipp==3.19.1
