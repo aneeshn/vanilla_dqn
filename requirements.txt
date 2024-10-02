@@ -14,7 +14,7 @@ diagnostic-updater==1.9.3
 distlib==0.3.0
 dynamic-reconfigure==1.6.3
 filelock==3.0.12
-future==0.18.2
+future==0.18.3
 gazebo-plugins==2.8.7
 gazebo-ros==2.8.7
 gencpp==0.6.5
