@@ -106,6 +106,6 @@ tf2-ros==0.6.5
 topic-tools==1.14.5
 torch==2.2.0
 urdfdom-py==0.4.3
-virtualenv==20.0.21
+virtualenv==20.26.6
 xacro==1.13.5
 zipp==3.19.1
